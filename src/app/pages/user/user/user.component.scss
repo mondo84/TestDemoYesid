@@ -1,0 +1,19 @@
+.wrapper-user {
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-gap: 2px;
+  min-height: 100vh;
+
+  .red-color {
+    color: red;
+  }
+  .action-item {
+    cursor: pointer;
+  }
+
+  .right-column {
+    background-color: var(--color-base);
+  }
+}
+
+

@@ -1,0 +1,20 @@
+<div class="wrapper-user">
+    <div class="p-0 me-1">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Acciones</h1>
+        </div>
+        <div class="col-12 pt-2">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action action-item"
+              (click)="getUserList()">Cargar usuarios</li>
+            <li class="list-group-item list-group-item-action action-item red-color"
+              (click)="removeAll()">Remover todos los usuarios</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="right-column p-4">
+      <app-user-list></app-user-list>
+    </div>
+</div>

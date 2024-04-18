@@ -1,0 +1,24 @@
+<ng-container *ngIf="users.length; else noRows">
+  <h2>Listado de Usuarios</h2>
+  <input
+    type="text"
+    class="form-control px-4"
+    placeholder="Buscar"
+    [(ngModel)]="searchPipe"
+    aria-label="serach"/>
+  <ul class="list-group list-group-flush mt-3">
+    <li class="list-group-item"
+      *ngFor="let user of users | filterPipe : searchPipe; let i = index">
+      <div class="row">
+        <div class="col-11">N° {{ i + 1 }}- ID: {{ user.id }}, Nombre: {{ user.name }}, Email: {{ user.email }}</div>
+        <div class="col-1">
+          <button class="btn btn-sm btn-danger w-100" (click)="deleteItem(i)">Borrar</button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</ng-container>
+
+<ng-template #noRows>
+    <h4>No hay resultados</h4>
+</ng-template>

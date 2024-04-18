@@ -1,0 +1,32 @@
+[
+  {
+    "id": 100,
+    "name": "Janell Wilder",
+    "email": "janellwilder@hotmail.com",
+    "phone": "300-2523139"
+  },
+  {
+    "id": 120,
+    "name": "Haley Abbott",
+    "email": "haleyabbott@hotmail.com",
+    "phone": "300-2523138"
+  },
+  {
+    "id": 150,
+    "name": "Beard Harris",
+    "email": "beardharris@mail.com",
+    "phone": "300-2523137"
+  },
+  {
+    "id": 220,
+    "name": "Ada Parsons",
+    "email": "adaparsons@hotmail.com",
+    "phone": "300-2523136"
+  },
+  {
+    "id": 190,
+    "name": "Bradley Gamble",
+    "email": "bradleygamble@flotonic.com",
+    "phone": "300-2523135"
+  }
+]
